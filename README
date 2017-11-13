@@ -1,5 +1,6 @@
 ## This repo includes a collection of arithmetic multiplier benchmarks. 
 These benchmarks have been used in the recent works of formal verification of arithmetic circuits. 
+Please contact Cunxi Yu (cunxi.yu@epfl.ch) if you have questions or bugs.
 
 BENCHMARKS:
 \benchmark:
