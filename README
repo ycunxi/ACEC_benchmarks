@@ -3,7 +3,7 @@ These benchmarks have been used in the recent works of formal verification of ar
 Please contact Cunxi Yu (cunxi.yu@epfl.ch) if you have questions or bugs.
 
 BENCHMARKS:
-\benchmark:
+\benchmark_multipliers:
 	a) bp-xx-xx, sp-xx-xx are AOKI multipliers originally developed by authors in [1], used for evaluation in [2][3][5][6].
 		bp: booth partial products
 		wt: wallace-tree
