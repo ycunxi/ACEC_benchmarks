@@ -1,0 +1,24 @@
+##This repo includes the tool and benchmarks used in this submission.
+
+USAGE: ./spectrum-AIG *.blif/aig/v/bench
+        Supports .v .blif .aig .bench files
+        Generate the spectrum of multipliers.
+SCRIPT:
+./getResult.sh >> log => This will give you the runtime results of constructing the spectra of all the multipliers in the dir.
+If you want to check the spectrum of each multiplier, delete grep code in the script file.
+
+BENCHMARKS:
+\benchmark_date2018:
+	a) bp-xx-xx, sp-xx-xx are AOKI multipliers originally developed by authors in [1], used for evaluation in [2][3].
+	b) mult-abc-xx are generated with ABC using "gen -N -m" commmand.
+	c) mult-abc-Booth-xx are generated with ABC using "%blast -b" command.
+	d) btor-xx are multipliers synthesized by Boolector, provided in [3].
+
+
+[1] N. Homma, Y. Watanabe, T. Aoki, and T. Higuchi, “Formal design of arithmetic circuits based on arithmetic description language,” 
+IEICE transactions on fundamentals of electronics, communications and com- puter sciences, vol. 89, no. 12, pp. 3500–3509, 2006.
+[2] A. Sayed-Ahmed, D. Große, U. Ku ̈hne, M. Soeken, and R. Drechsler, “Formal Verification of Integer Multipliers by Combining Grobner Basis with Logic Reduction,” 
+in DATE’16, 2016, pp. 1–6.
+[3] D. Ritirc, A. Biere, and M. Kauers, “Column-Wise Verification of Multipliers Using Computer Algebra,” 
+in FMCAD 2017, Oct 2017 (to appear).
+

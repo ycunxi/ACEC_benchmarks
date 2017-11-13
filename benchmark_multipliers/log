@@ -1,0 +1,62 @@
+Design (./bp-ar-rc-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.09 sec 
+Design (./bp-ar-rc-64-opt-dc2) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   0.09 sec 
+Design (./bp-wt-cl-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.13 sec 
+Design (./bp-wt-cl-64-opt-dc2) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   0.10 sec 
+Design (./btor64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.09 sec 
+Design (./sp-ar-cl-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.11 sec 
+Design (./sp-ar-cl-64-opt-dc2) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.09 sec 
+Design (./sp-ar-rc-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.12 sec 
+Design (./sp-ar-rc-64-opt-dc2) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   0.10 sec 
+Design (./sp-wt-cl-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.17 sec 
+Design (./sp-wt-cl-64-opt-dc2) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.10 sec 
+Design (./sp-wt-rc-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.12 sec 
+Design (./sp-wt-rc-64-opt-dc2) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.08 sec 
+Design (./bp-ar-rc-128) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.55 sec 
+Design (./bp-ar-rc-128-opt-dc2) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   0.47 sec 
+Design (./btor128) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.99 sec 
+Design (./btor128-resyn3) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.99 sec 
+Design (./mult-abc-128-resyn3) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.97 sec 
+Design (./sp-ar-rc-128) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   1.32 sec 
+Design (./sp-ar-rc-128-opt-dc2) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   1.05 sec 
+Design (./sp-ar-rc-128-opt-resyn3) [ERROR] Adder-tree cannot be fully detected, constructing algebraic spectrum failed.
+         1) This design might be tech mapped. Please try the (./spectrum-AIG bm *.blif/aig/v/bench) command.\nGenerating spectrum =   1.10 sec 
+Design (./mult-abc-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.09 sec 
+Design (./mult-abc-128) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   1.00 sec 
+Design (./mult-abc-256) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =  13.53 sec 
+Design (./mult-abc-Booth-128) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.36 sec 
+Design (./mult-abc-Booth-256) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   2.65 sec 
+Design (./mult-abc-Booth-64) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.06 sec 
+Design (./mult-abc-Booth-64-dc2) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.06 sec 
+Design (./mult-abc-Booth-64-resyn3) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.07 sec 
+Design (./mult-abc-Booth-128-resyn3) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   0.36 sec 
+Design (./mult-abc-Booth-256-resyn3) Adder-tree is successfully constructed based on AIG.
+Generating spectrum =   2.98 sec 
