@@ -1,14 +1,19 @@
-## This repo includes a collection of arithmetic multiplier benchmarks.
-
+## This repo includes a collection of arithmetic multiplier benchmarks. 
+These benchmarks have been used in the recent works of formal verification of arithmetic circuits. 
 
 BENCHMARKS:
-\benchmark_date2018:
+\benchmark:
 	a) bp-xx-xx, sp-xx-xx are AOKI multipliers originally developed by authors in [1], used for evaluation in [2][3][5][6].
+		bp: booth partial products
+		wt: wallace-tree
+		cl: carry-look-ahead
+		rc: ripple carry
+		..(for details see [1][2])
 	b) mult-abc-xx are generated with ABC using "gen -N -m" commmand used in [4][5]
 	c) mult-abc-Booth-xx are generated with ABC using "%blast -b" command, used in [5].
 	d) btor-xx are multipliers synthesized by Boolector, provided in [6].
 
-
+Notes:
 XX-dc2: optimized by "dc2" flow by ABC.
 XX-resyn3: optimized by "resyn3" flow by ABC.
 
